@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000000;
+    color: aquamarine;
+}
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+.conteiner {
+    width: 100%;
+    margin: auto;
+}
+
+.nav-principal {
+    font-size: 17px;
+    background-color: blue;
+    height: 100px;
+    padding: 20px 0 ;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+
+.logo-menu {
+    width: 60px;
+}
