@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
 }
+
+
 body {
-    background-color: #000000;
     color: aquamarine;
 }
 a {
@@ -35,4 +36,69 @@ ul {
 
 .logo-menu {
     width: 60px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url('../proyecto_web/img/banner.jpeg');
+    animation: banner 20s infinite linear;
+}
+
+.banner-contenido {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-contenido h1 {
+    margin-bottom: 0px;
+    margin-left: 20px; 
+    padding: 0;
+    font-size: 50px;
+
+}
+
+.banner-contenido h1 {
+    margin-left: 20px; 
+    padding: 0;
+    font-size: 20px;
+
+}
+@keyframes banner {
+    0% {
+        background-image: url('../proyecto_web/img/banner.jpeg');
+    }
+    25% {
+        background-image: url('../proyecto_web/img/banner.jpeg');
+    }
+    26% {
+        background-image: url('../proyecto_web/img/banner2.jpeg');
+    }
+    50% {
+        background-image: url('../proyecto_web/img/banner2.jpeg');
+    }
+    51% {
+        background-image: url('../proyecto_web/img/banner3.jpeg');
+    }
+    75% {
+        background-image: url('../proyecto_web/img/banner3.jpeg');
+    }
+    76% {
+        background-image: url('../proyecto_web/img/banner.jpeg');
+    }
+    100% {
+        background-image: url('../proyecto_web/img/banner.jpeg');
+    }
+
+
+
 }
