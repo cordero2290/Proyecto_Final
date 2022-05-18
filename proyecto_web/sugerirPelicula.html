@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Sugerir Pelicula</title>
+</head>
+<body>
+    <header class="full-width NavBarP">
+		<div class="full-width NavBarP-Logo">TeLoVeoAsiNomas</div>
+		<nav class="full-width NavBarP-Nav">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="sugerirPelicula.html">Sugerir Pelicula</a></li>
+				<li><a href="#!">Wallpapers</a></li>
+				<li><a href="#!">Acerca de</a></li>
+			</ul>
+		</nav>
+		<i class="fa fa-bars visible-xs btn-menuMobile ShowMenuMobile" aria-hidden="true"></i>
+	</header>
+
+    <form class="Sugerencia">
+
+        
+        <div class="input">
+            <label for="lname" class="labels">TU NOMBRE:</label><br>
+            <input type="text" id="lname" name="lname" class="inputUser"><br>
+        </div>
+        <div class="input">
+            <label for="fname" class="labels">NOMBRE DE LA PELICULA:</label><br>
+            <input type="text" id="fname" name="fname" class="inputUser"><br>
+        </div>
+        <div class="input">
+            <label for="message" class="labels">COMENTARIO:</label><br>
+            <textarea class="message" name="message" id="message" rows="10" cols="30">
+                The cat was playing in the garden.
+            </textarea>
+        </div>
+        <div class="input">
+            <input type="submit" value="Enviar" class="botonEnviar">
+        </div>
+    </form>
+</body>
+</html>
