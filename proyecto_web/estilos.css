@@ -62,32 +62,7 @@ ul {
     font-size: 20px;
 
 }
-@keyframes banner {
-    0% {
-        background-image: url('../proyecto_web/img/banner.jpeg');
-    }
-    25% {
-        background-image: url('../proyecto_web/img/banner.jpeg');
-    }
-    26% {
-        background-image: url('../proyecto_web/img/banner2.jpeg');
-    }
-    50% {
-        background-image: url('../proyecto_web/img/banner2.jpeg');
-    }
-    51% {
-        background-image: url('../proyecto_web/img/banner3.jpeg');
-    }
-    75% {
-        background-image: url('../proyecto_web/img/banner3.jpeg');
-    }
-    76% {
-        background-image: url('../proyecto_web/img/banner.jpeg');
-    }
-    100% {
-        background-image: url('../proyecto_web/img/banner.jpeg');
-    }
-}
+
 .NavBarP,
 .NavBarP-Logo,
 .NavBarP-Nav,
@@ -166,61 +141,14 @@ ul {
     top: -30px;
     left: -40px;
     border-radius: 10%;
-    background-image: url('../proyecto_web/img/justiceleague.jpg');
-    /* background-repeat: no-repeat; */
-
 }
-.imagenPelicula2{
-    position: absolute;
-    height: 100%;
-    width: 30%;
-    top: -30px;
-    left: -40px;
-    border-radius: 10%;
-    background-image: url('../proyecto_web/img/poster2.jpg');
-    /* background-repeat: no-repeat; */
 
-}
-.imagenPelicula3{
-    position: absolute;
-    height: 100%;
-    width: 30%;
-    top: -30px;
-    left: -40px;
-    border-radius: 10%;
-    background-image: url('../proyecto_web/img/poster3.jpg');
-    /* background-repeat: no-repeat; */
-
-}
-.imagenPelicula4{
-    position: absolute;
-    height: 100%;
-    width: 30%;
-    top: -30px;
-    left: -40px;
-    border-radius: 10%;
-    background-image: url('../proyecto_web/img/poster4.jpg');
-    /* background-repeat: no-repeat; */
-
-}
-.imagenPelicula5{
-    position: absolute;
-    height: 100%;
-    width: 30%;
-    top: -30px;
-    left: -40px;
-    border-radius: 10%;
-    background-image: url('../proyecto_web/img/poster5.jpg');
-    /* background-repeat: no-repeat; */
-
-}
 
 .textoPelicula{
     width:100%;
     height: 100%;
     border-radius: 4%;
     background-color: rgb(255, 255, 255);
-    /* background-image: url('../proyecto_web/img/justiceleague.jpg'); */
 }
 
 .tituloPelicula
@@ -256,12 +184,9 @@ width: 95%;
 
 .botonPelicula
 {
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 90%;
   height: 15%;
-   /* align-items: center; 
-   justify-content: center; */
   font-weight: 500;
   font-size: 22px;
   border-radius: 1em;
@@ -291,6 +216,7 @@ width: 95%;
     margin-top: 85px;
 
 }
+
 .inputUser
 {
     width: 70%;
@@ -330,12 +256,9 @@ color: #673DE6;
 }
 .botonEnviar
 {
-        /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         width: 70%;
         height: 35px;
-         /* align-items: center; 
-         justify-content: center; */
         font-weight: 500;
         font-size: 22px;
         border-radius: 1em;
@@ -344,3 +267,59 @@ color: #673DE6;
         margin-left: 0px;
 
 }
+.containerCarrousel {
+    margin-top: 35px;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+  
+ .sliders{
+    
+      margin: auto;
+      display: flex;
+      width: 60%;
+      height: 40em;
+  }
+  
+   .left{
+      height: 100%;
+      display: flex;
+      font-size: 100px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+   .arrow{
+    color: rgb(251, 81, 132);
+    margin: auto;
+  }
+  
+   .right{
+    display: flex;
+      height: 100%;
+      font-size: 100px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+   .containerPhoto{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+   .containerPhoto img{
+    object-fit: cover;
+      width: 100%;
+      height: 100%;
+      
+  }
+  .acercaDeMi
+  {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: rgb(251, 81, 132);
+      font-size: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 30px;
+  }
+  
+
