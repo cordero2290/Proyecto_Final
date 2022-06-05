@@ -2,10 +2,10 @@ var carrouselImage;
 carrouselImage = document.getElementById("ImagenCarrusel");
 var i;
 var imagenes = new Array();
-imagenes[1] = "../proyecto_web/img/poster2.jpg";
-imagenes[2] = "../proyecto_web/img/poster3.jpg";
-imagenes[3] = "../proyecto_web/img/poster4.jpg";
-imagenes[4] = "../proyecto_web/img/poster5.jpg";
+imagenes[1] = "../proyecto_web/img/tt1.jpg";
+imagenes[2] = "../proyecto_web/img/tt2.jpg";
+imagenes[3] = "../proyecto_web/img/tt3.jpg";
+imagenes[4] = "../proyecto_web/img/tt4.jpg";
  
 i = 0;
 
